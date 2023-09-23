@@ -43,7 +43,7 @@ nav a {
 
 /* Style the main content */
 main {
-    max-width: 800px;
+    max-width: auto; /* 800p */
     margin: auto;
     padding: 20px;
 }
