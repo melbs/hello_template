@@ -22,15 +22,40 @@ header {
     padding: 1em 1em;
 }
 
+.alert {
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
 
+.container mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px; 
+}  
+
+.list-group-item.active {
+    background-color:gainsboro;
+    border-color: gainsboro;
+    color:#000000;
+    font-weight: 800;
+}
 img.responsive {
-    width: 75%;
+    width: 65%;
     height: auto;
     display: block;
     margin-left: auto;
     margin-right: auto;
   }
 
+  .flex-container {
+    display: flex;
+    justify-content: center; /* aligns container to center */
+  }
+  
+  .text-container {
+    width: 75%;
+  }
 
   
 

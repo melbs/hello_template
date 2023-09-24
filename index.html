@@ -24,11 +24,9 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarID">
                     <div class="navbar-nav">
-                        <a class="nav-link active" aria-current="page" href="#">Getting Started</a>
-                        <a class="nav-link active" aria-current="page" href="#">The Essentials</a>
-                        <a class="nav-link active" aria-current="page" href="#">Resources</a>
-                        <a class="nav-link active" aria-current="page" href="#">Contact Me</a>
-                        
+                        <a class="nav-link active" aria-current="page" href="#section1">Getting Started</a>
+                        <a class="nav-link active" aria-current="page" href="#section2">The Essentials</a>
+                        <a class="nav-link active" aria-current="page" href="#section3">Resources</a>                        
                     </div>
                 </div>
             </div>
@@ -43,70 +41,81 @@
 
 
     <main>
-
-
         <section id="section1">
             <h2>Getting Started</h2>
            <img src="gettingstarted.png" class="responsive" alt="admin console lefthand navigation and cards">
-            <p>The Admin Console Dashboard is a Google Admin's home base to access all users, devices, services and domain configurations. There are several important tasks that a new Google Admin should perform. We will review the top 3.</p>
+                   <p>The Admin Console Dashboard is a Google Admin's home base to access all users, devices, services and domain configurations. There are several important tasks that a new Google Admin should perform. <b>We will review the top 3</b>.</p>
+                    <br>
             
 <!-- Hover added -->
 <div class="list-group">
-    <a href="#" class="list-group-item list-group-item-action active">Set the primary admin emailm</a>
-    <a href="#" class="list-group-item list-group-item-action">This is improtant</a>
-   <!--<a href="#" class="list-group-item list-group-item-action disabled">Disabled item</a>-->
+    <a href="#" class="list-group-item list-group-item-action active">#1 - Set the primary admin email</a>
+    <a href="https://admin.google.com/ac/accountsettings/profile" class="list-group-item list-group-item-action">Admin Console > Account > Account Settings > Profile > Contact Info</a>
+   <a href="#" class="list-group-item list-group-item-action disabled">It is important to set this properly to ensure you receive important Google communication. </a>
+</div>
+<br>
+<div class="list-group">
+    <a href="#" class="list-group-item list-group-item-action active">#2 - Create a proper Organization Unit Strcture</a>
+    <a href="https://admin.google.com/ac/orgunits" class="list-group-item list-group-item-action">Admin Console > Directory > Organizational Units</a>
+   <a href="#" class="list-group-item list-group-item-action disabled">Initially in your Google Admin console, all your users and devices are placed in a single organizational unit, called the top-level organizational unit. All settings you make in the Admin console apply to this top-level organizational unit and, therefore, to all users and devices in your account.
+   </a>
+</div>
+<br>
+<div class="list-group">
+    <a href="#" class="list-group-item list-group-item-action active">#3 - Decide how you're going to create your users</a>
+    <a href="https://support.google.com/a/answer/33310?hl=en&fl=1&sjid=8680541048158616289-NA" class="list-group-item list-group-item-action">Admin Console > Directory > Users</a>
+   <a href="#" class="list-group-item list-group-item-action disabled">You can manually create users, upload a file, or sync with another source. </a>
 </div>
         </section>
-<br>
+<br><br>
         <section id="section2">
             
             <h2>The Essentials</h2>
-            <p>While there are many important sections in the admin console, you can break them down by: Users, Devices, and Services.</p>
-            
-            <p>For the sake of this exercise, we will focus on the services.</p>
-            <div class="alert alert-danger" role="alert">
-              <h4 class="alert-heading">Warning</h4>
-              <p>Additional Services have different terms of service.</p>
-            </div>
+           
+                    <p>While there are many important sections in the admin console, you can break them down by: Users, Devices, and Services. For the sake of this exercise, we will focus on the services.</p>
 
             <div class="container mx-auto">
                 <div class="row row-cols-3">
                     <div class="card col" style="width:18rem;">
-                      <img src="services1.png" class="card-img-top" alt="...">
+                      <img src="services1.png" class="card-img-top" alt="Core Services Card">
                       <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <h6 class="card-subtitle mb-2 text-muted ">Card subtitle</h6>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <h5 class="card-title">Core Services</h5>
+                        <h6 class="card-subtitle mb-2 text-muted ">17 Services</h6>
+                        <p class="card-text">Examples: Gmail, Drive, Calendar, Vault</p>
                       </div>
                     </div>
+                    <br> 
                       <div class="card col" style="width:18rem;">
-                        <img src="services2.png" class="card-img-top" alt="...">
+                        <img src="services2.png" class="card-img-top" alt="Additional Services Card">
                         <div class="card-body">
-                          <h5 class="card-title">Card title</h5>
-                          <h6 class="card-subtitle mb-2 text-muted ">Card subtitle</h6>
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <h5 class="card-title">Additional Services</h5>
+                          <h6 class="card-subtitle mb-2 text-muted ">64 Services</h6>
+                          <p class="card-text">Examples: Blogger, Arts & Culture, Chrome Remote Desktop</p>
                         </div>
                       </div>
                 </div>
             </div>
-
+            <br>
+            <div class="alert alert-danger" role="alert">
+                <h4 class="alert-heading">Warning</h4>
+                <p>Additional Services have different terms of service.</p>
+              </div>
         </section>
 <br>
         <section id="section3">
             <h2>Resources</h2>
-            <p>This short beginner's guide is just a sliver of what a Google Admin should know. To help you on your journey, I've listed the top resources every Google Admin should be using.</p>
+                    <p>This short beginner's guide is just a sliver of what a Google Admin should know. To help you on your journey, I've listed the top resources every Google Admin should be using.</p>
+            
           <!-- Some borders are removed -->
           <ul class="list-group list-group-flush">
-            <li class="list-group-item">Item</li>
-            <li class="list-group-item">Item <span class="badge bg-secondary">New</span></li>
-            <li class="list-group-item">Item</li>
-            <li class="list-group-item">Item <span class="badge bg-secondary">New</span></li>
-            <li class="list-group-item">Item</li>
+            <li class="list-group-item"><a href="https://admin.google.com/ac/home?hl=en">admin.google.com</a></li>
+            <li class="list-group-item"><a href="https://edu.google.com/intl/ALL_us/workspace-for-education/editions/overview/">Google Workspace For Education</a> <span class="badge bg-secondary">New</span></li>
+            <li class="list-group-item"><a href="https://support.google.com/a?fl=1&sjid=8680541048158616289-NA#topic=4388346">Google Workspace Support</a></li>
             </ul>
             
         </section>
     </main>
-
+<br><br>
 
 
     <footer>
